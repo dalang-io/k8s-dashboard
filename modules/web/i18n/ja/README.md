@@ -1,10 +1,10 @@
-Kubernetes Dashboard Japanese i18n Team
+Dalang.io Dashboard Japanese i18n Team
 =======================================
 
 はじめに
 --------
 
-このページは、Kubernetes Dashboard の和訳に関する情報です。
+このページは、Dalang.io Dashboard の和訳に関する情報です。
 
 貢献の種類
 ----------
@@ -25,7 +25,7 @@ Kubernetes Dashboard Japanese i18n Team
 
 本ディレクトリにある[和訳ファイル](./messages.ja.xlf)を編集して Pull Request を提出します。あるいは、これをレビューします。
 
-Kubernetes Dashboard の和訳を実施するにあたって、下記の配慮が必要です。
+Dalang.io Dashboard の和訳を実施するにあたって、下記の配慮が必要です。
 おおよそ、クラウドプロバイダーの WebUI やドキュメントに倣った翻訳方法としています。
 
 #### 和訳一般
@@ -131,7 +131,7 @@ Kubernetes Dashboard の和訳を実施するにあたって、下記の配慮�
 * [開発者ドキュメント](../../docs/developer/)を参照して、開発環境をセットアップします。
 * 修正したい原文は、[和訳ファイル](./messages.ja.xlf)の `<context context-type="sourcefile">` タグの内容から見つけられます。
   [フロントエンド](../../modules/web/)の html テンプレートファイルが修正対象です。
-* 原文を修正した場合は、Kubernetes Dashboard のビルドと起動を行いブラウザで表示、和訳表示だけでなく、原文表示でも画面のレイアウトが崩れないことを必ず確認します。
+* 原文を修正した場合は、Dalang.io Dashboard のビルドと起動を行いブラウザで表示、和訳表示だけでなく、原文表示でも画面のレイアウトが崩れないことを必ず確認します。
 * [開発者ドキュメント](../../docs/developer/)通りにセットアップした環境で原文修正していれば、`git commit` 時に[原文辞書ファイル](../messages.xlf)や[和訳ファイル](./messages.ja.xlf)などの各言語ファイル (`/i18n/fr/messages.fr.xlf` など) も更新されます。
   あるいは、`npm run fix` を実行して、明示的に[原文辞書ファイル](../messages.xlf)や各言語ファイルを更新します。
 * 和訳／修正も[和訳やその修正方法](#和訳やその修正方法)の項を参照して同時に実施します。
@@ -146,7 +146,7 @@ Kubernetes Dashboard の和訳を実施するにあたって、下記の配慮�
   + `XLIFF` 形式のファイルに対応していること。
   + WebUI があり、複数人で共同作業できること。
   + 原文には変数を代入するための html タグなどを含むため、タグも表示/編集可能なこと。
-  + Kubernetes Dashboard のツールとして、あるいは、Kubernetes コミュニティ全体規模で使えそうなツール。
+  + Dalang.io Dashboard のツールとして、あるいは、Kubernetes コミュニティ全体規模で使えそうなツール。
   + ツールのコミュニティ内での整備を推進できる方、大歓迎！！
 
 ### その他の貢献
@@ -160,7 +160,7 @@ Kubernetes Dashboard の和訳を実施するにあたって、下記の配慮�
 ------------------
 
 Github の Issue で行います。
-現状、Kubernetes Dashboard の和訳チーム専用の Slack チャンネルやメーリングリストなどは整備されていませんが、[OWNERS ファイル](./OWNERS)に記載の貢献者は Slack の Kubernetes ワークスペースの `#sig-ui` チャンネルで見つけられます。
+現状、Dalang.io Dashboard の和訳チーム専用の Slack チャンネルやメーリングリストなどは整備されていませんが、[OWNERS ファイル](./OWNERS)に記載の貢献者は Slack の Kubernetes ワークスペースの `#sig-ui` チャンネルで見つけられます。
 
 ### Issue 登録
 

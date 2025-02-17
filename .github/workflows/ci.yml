@@ -76,6 +76,7 @@ jobs:
 
   static-check:
     name: Static check
+    if: github.event_name == 'pull_request'
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
@@ -148,7 +149,7 @@ jobs:
       - name: Login to dcr.io
         uses: docker/login-action@v3.3.0
         with:
-          registry: ghcr.io
+          registry: dcr.dalang.io
           username: ${{ secrets.REGISTRY_USERNAME }}
           password: ${{ secrets.REGISTRY_PASSWORD }}
       - name: Build and push

@@ -15,7 +15,6 @@
 
 # IDE
 .idea/
-.vscode/
 .DS_Store
 .fleet/
 
@@ -33,3 +32,7 @@ charts/kubernetes-dashboard/charts
 
 # Cypress
 screenshots
+branch_structure.json
+temp_auto_push.bat
+temp_interactive_push.bat
+.gitignore

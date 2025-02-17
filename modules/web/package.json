@@ -13,7 +13,7 @@
   "engineStrict": true,
   "packageManager": "yarn@3.3.0",
   "scripts": {
-    "start": "make serve",
+    "start": "node init && make serve",
     "start:https": "make serve-https",
     "build:prod": "make build",
     "fix": "yarn fix:i18n && yarn fix:html && yarn fix:scss && yarn fix:ts",

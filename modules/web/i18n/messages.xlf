@@ -1262,7 +1262,7 @@
         <source> Setting high number of pods may cause performance issues of the cluster and Dashboard UI. </source>
       </trans-unit>
       <trans-unit id="7022029523420977040" datatype="html">
-        <source> Dalang.io Dashboard </source>
+        <source> Kubernetes Dashboard </source>
       </trans-unit>
       <trans-unit id="7546647490531252189" datatype="html">
         <source>Namespace: </source>

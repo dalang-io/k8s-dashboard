@@ -40,7 +40,7 @@ export class TitleService {
   }
 
   private apply_(): void {
-    let title = 'Dalang.io Dashboard';
+    let title = 'Kubernetes Dashboard';
 
     if (this.clusterName && this.clusterName.length > 0) {
       title = `${this.clusterName} - ` + title;

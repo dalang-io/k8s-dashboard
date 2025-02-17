@@ -1713,8 +1713,8 @@
         <target state="new">設定大量 pod 可能會導致叢集和 Dashboard UI 出現效能問題。</target>
       </trans-unit>
       <trans-unit id="7022029523420977040" datatype="html">
-        <source> Dalang.io Dashboard </source>
-        <target state="new"> Dalang.io Dashboard </target>
+        <source> Kubernetes Dashboard </source>
+        <target state="new"> Kubernetes Dashboard </target>
       </trans-unit>
       <trans-unit id="7546647490531252189" datatype="html">
         <source>Namespace: </source>

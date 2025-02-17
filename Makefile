@@ -80,9 +80,7 @@ serve: $(PRE) --ensure-kind-cluster --ensure-metrics-server ## Starts developmen
 	SYSTEM_BANNER=$(SYSTEM_BANNER) \
 	SYSTEM_BANNER_SEVERITY=$(SYSTEM_BANNER_SEVERITY) \
 	SIDECAR_HOST=$(SIDECAR_HOST) \
-	docker compose -f $(DOCKER_COMPOSE_DEV_PATH) --project-name=$(PROJECT_NAME) up \
-		--build \
-		--force-recreate \
+	podman compose -f $(DOCKER_COMPOSE_DEV_PATH) --project-name=$(PROJECT_NAME) up \
 		--remove-orphans \
 		--no-attach gateway \
 		--no-attach scraper \

@@ -364,7 +364,7 @@
       </trans-unit>
       <trans-unit id="4335281277764237619" datatype="html">
         <source> <x id="INTERPOLATION" equiv-text="&quot;\uFFFD0\uFFFD&quot;"/> © <x id="INTERPOLATION_1" equiv-text="&quot;\uFFFD1\uFFFD&quot;"/> The Kubernetes Authors </source>
-        <target state="new"> Dalang.io Dashboard v<x id="INTERPOLATION" equiv-text="&quot;\uFFFD0\uFFFD&quot;"/> © <x id="INTERPOLATION_1" equiv-text="&quot;\uFFFD1\uFFFD&quot;"/> Los autores de Kubernetes </target>
+        <target state="new"> Kubernetes Dashboard v<x id="INTERPOLATION" equiv-text="&quot;\uFFFD0\uFFFD&quot;"/> © <x id="INTERPOLATION_1" equiv-text="&quot;\uFFFD1\uFFFD&quot;"/> Los autores de Kubernetes </target>
       </trans-unit>
       <trans-unit id="2235593604907350097" datatype="html">
         <source>Resource Names</source>
@@ -1709,7 +1709,7 @@
         <target state="new"> Establecer un número elevado de Pods puede causar problemas de desempeño del clúster y la interfaz gráfica del Dashboard. </target>
       </trans-unit>
       <trans-unit id="7022029523420977040" datatype="html">
-        <source> Dalang.io Dashboard </source>
+        <source> Kubernetes Dashboard </source>
         <target state="new">Tablero de Kubernetes</target>
       </trans-unit>
       <trans-unit id="7546647490531252189" datatype="html">

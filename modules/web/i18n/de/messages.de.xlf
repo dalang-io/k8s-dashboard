@@ -1717,8 +1717,8 @@
         <target state="new">Die Einstellung einer hohen Anzahl Pods kann zu Performance-Problemen des Clusters und der grafischen Oberfläche des Dashboards führen.</target>
       </trans-unit>
       <trans-unit id="7022029523420977040" datatype="html">
-        <source> Dalang.io Dashboard </source>
-        <target state="new">Dalang.io Dashboard</target>
+        <source> Kubernetes Dashboard </source>
+        <target state="new">Kubernetes Dashboard</target>
       </trans-unit>
       <trans-unit id="7546647490531252189" datatype="html">
         <source>Namespace: </source>

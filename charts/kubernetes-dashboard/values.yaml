@@ -144,7 +144,7 @@ app:
 auth:
   role: auth
   image:
-    repository: docker.io/kubernetesui/dashboard-auth
+    repository: dcr.dalang.io/dalang-internal/dashboard-auth
     tag: 1.2.3
   scaling:
     replicas: 1
@@ -186,7 +186,7 @@ auth:
 api:
   role: api
   image:
-    repository: docker.io/kubernetesui/dashboard-api
+    repository: dcr.dalang.io/dalang-internal/dashboard-api
     tag: 1.10.2
   scaling:
     replicas: 1
@@ -246,7 +246,7 @@ api:
 web:
   role: web
   image:
-    repository: docker.io/kubernetesui/dashboard-web
+    repository: dcr.dalang.io/dalang-internal/dashboard-web
     tag: 1.6.1
   scaling:
     replicas: 1
@@ -309,7 +309,7 @@ metricsScraper:
   enabled: true
   role: metrics-scraper
   image:
-    repository: docker.io/kubernetesui/dashboard-metrics-scraper
+    repository: dcr.dalang.io/dalang-internal/dashboard-metrics-scraper
     tag: 1.2.2
   scaling:
     replicas: 1

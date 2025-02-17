@@ -34,7 +34,7 @@ import (
 )
 
 func main() {
-	klog.InfoS("Starting Kubernetes Dashboard Web", "version", environment.Version)
+	klog.InfoS("Starting Dalang Dashboard Web", "version", environment.Version)
 
 	client.Init(
 		client.WithUserAgent(environment.UserAgent()),

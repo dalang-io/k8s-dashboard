@@ -37,7 +37,7 @@ import (
 )
 
 func main() {
-	klog.InfoS("Starting Kubernetes Dashboard API", "version", environment.Version)
+	klog.InfoS("Starting Dalang Dashboard API", "version", environment.Version)
 
 	client.Init(
 		client.WithUserAgent(environment.UserAgent()),
@@ -145,7 +145,7 @@ func configureOpenAPI(container *restful.Container) {
 func enrichOpenAPIObject(swo *spec.Swagger) {
 	swo.Info = &spec.Info{
 		InfoProps: spec.InfoProps{
-			Title:   "Kubernetes Dashboard API",
+			Title:   "Dalang Dashboard API",
 			Version: environment.Version,
 		},
 	}
